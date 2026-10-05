@@ -6,7 +6,7 @@ I run a home lab on Proxmox — deploying services, testing configurations, and 
 
 ## Stack
 
-**Backend:** Java, Spring Boot, Spring Security (JWT / OAuth2), Spring Data JPA, PostgreSQL, RabbitMQ, Maven
+**Backend:** Java, Spring Boot, Spring Security (JWT / OAuth2), Spring Data JPA, PostgreSQL, Flyway, RabbitMQ, Maven
 **Frontend:** Angular (incl. SSR)
 **Infrastructure:** Docker, Linux, home Proxmox cluster
 
@@ -14,6 +14,7 @@ I run a home lab on Proxmox — deploying services, testing configurations, and 
 
 | Project | Description |
 |---|---|
+| [Booking](https://github.com/DanilProggg/booking) | Ticket and seat booking service on the latest stack: Java 24, Spring Boot 4, Spring Security 7, Hibernate 7. Schema versioned with Flyway migrations; H2 for local development, PostgreSQL for production |
 | [Words](https://github.com/DanilProggg/Words-Backend) | Vocabulary-learning app: dictionary + spaced-repetition-style learning. Backend is two microservices talking over RabbitMQ RPC |
 | [PO-List](https://github.com/DanilProggg/PO-List-Backend) | Class-schedule and attendance tracking for a university department: lessons, groups, teachers, Excel report export |
 | [PoRabote](https://github.com/DanilProggg/PoRabote-Backend) | Job board: vacancies, resumes, applications, favorites |
